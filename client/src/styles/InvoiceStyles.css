@@ -1,0 +1,128 @@
+#invoice-POS {
+  box-shadow: 0 0 1in -0.25in rgba(0, 0, 0, 0.5);
+  padding: 4mm;
+  margin: 0 auto;
+  width: 76mm;
+  background: #fff;
+}
+
+::selection {
+  background: #f31544;
+  color: #fff;
+}
+::-moz-selection {
+  background: #f31544;
+  color: #fff;
+}
+h1 {
+  font-size: 1.5rem;
+  color: #222;
+}
+h2 {
+  font-size: 0.9rem;
+}
+h3 {
+  font-size: 1.2rem;
+  font-weight: 300;
+  line-height: 2em;
+}
+p {
+  font-size: 0.7rem;
+  color: #666;
+  line-height: 1.2em;
+}
+
+#top,
+#mid,
+#bot {
+  border-bottom: 1px solid #eee;
+}
+
+#top {
+  min-height: 100px;
+}
+
+#bot {
+  min-height: 50px;
+}
+
+#top .logo {
+  height: 60px;
+  width: 60px;
+  border-radius: 20%;
+  background: url(https://media.licdn.com/dms/image/C4E0BAQEZ6bPEM7dmkQ/company-logo_200_200/0/1662977078405/bpsmaroc_logo?e=2147483647&v=beta&t=4Lv7fKg6AQWp3CFu2EVzySefvWqdRk2BQF8pg6_K12o)
+    no-repeat;
+  background-size: 50px 50px;
+}
+
+.clientlogo {
+  float: left;
+  height: 60px;
+  width: 60px;
+  background: url() no-repeat;
+  background-size: 60px 60px;
+  border-radius: 50px;
+}
+
+.info {
+  display: block;
+  margin-left: 0;
+}
+
+.title {
+  float: right;
+}
+
+.title p {
+  text-align: right;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.tabletitle {
+  font-size: 0.5em;
+  background: #eee;
+}
+
+.service {
+  border-bottom: 1px solid #eee;
+}
+
+.item {
+  width: 24mm;
+}
+
+.itemtext {
+  font-size: 0.5rem;
+}
+
+#legalcopy {
+  margin-top: 5mm;
+}
+
+.hours {
+  padding-right: 15px;
+}
+
+.Rate {
+  width: 30%; /* Largeur de la colonne Tax et Grand Total */
+  text-align: left; /* Alignement du texte à gauche */
+}
+
+.Rate h2 {
+  font-size: 0.8rem; /* Taille de police ajustée */
+  margin: 0; /* Suppression de la marge par défaut */
+}
+
+.payment {
+  text-align: right; /* Aligns content to the right */
+  font-weight: bold; /* Makes the text bold */
+}
+
+.payment h2 {
+  font-size: 0.8rem; /* Adjust font size as needed */
+  margin: 0; /* Removes default margin */
+}

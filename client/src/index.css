@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Sora&display=swap");
+
+body {
+  font-family: "Sora", sans-serif;
+  background-color: #E7E5DE; /* Couleur de fond de la page */
+  color: #283745; /* Couleur du texte par défaut */
+}
+
+.item-button button {
+  margin-top: 20px;
+  width: 200px;
+  background-color: #283745; /* Couleur du bouton */
+  color: #FBF9E3; /* Couleur du texte du bouton */
+}
+
+.spinner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 100;
+}
+
+.spinner-border {
+  height: 100px;
+  width: 100px;
+}
+
+.category {
+  border: 2px solid #EEA803; /* Couleur de la bordure */
+  margin-right: 25px;
+  margin-bottom: 10px;
+  padding: 10px;
+  cursor: pointer;
+  background-color: #FBF9E3; /* Couleur de fond */
+}
+
+.category img {
+  margin-left: 10px;
+}
+
+.category-active {
+  border: 2px solid #283745; /* Couleur de la bordure active */
+  background-color: #EEA803; /* Couleur de fond active */
+}
+
+/*=========== register page ============*/
+
+.register {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  background-color: #E7E5DE; /* Couleur de fond de la page */
+}
+
+.register input {
+  width: 400px !important;
+}
+
+.register-form {
+  background-color: #FBF9E3; /* Couleur de fond du formulaire */
+  padding: 20px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.register-form h1 {
+  text-align: center;
+  background-color: #283745; /* Couleur de fond de l'en-tête */
+  color: #FBF9E3; /* Couleur du texte de l'en-tête */
+  padding: 10px;
+}
+
+.register-form h3 {
+  color: #283745; /* Couleur du texte */
+  text-align: center;
+}
